@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Trillo — Your all-in-one booking app</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <!-- Logo -->
+        <img src="./img/logo.png" alt="logo" class="logo" />
+        <!-- Search Input -->
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <ion-icon name="search-outline" class="search__icon"></ion-icon>
+        </form>
+        <!-- NAV - NOTIFICATIONS & PROFILE -->
+        <nav class="user-nav">
+          <!-- ICON + TEXT -->
+          <div class="user-nav__icon-box">
+            <ion-icon name="bookmark-sharp" class="user-nav__icon"></ion-icon>
+            <span class="user-nav__notifications">7</span>
+          </div>
+          <!-- ICON + TEXT -->
+          <div class="user-nav__icon-box">
+            <ion-icon name="chatbubbles-sharp"></ion-icon>
+            <span class="user-nav__notifications">13</span>
+          </div>
+          <!-- IMAGE + TEXT -->
+          <div class="user-nav__user">
+            <img
+              src="./img/user.jpg"
+              alt="profile photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">KAS</span>
+          </div>
+        </nav>
+      </header>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
